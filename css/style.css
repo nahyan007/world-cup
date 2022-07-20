@@ -9,9 +9,9 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #FFFFFF;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    align-items:center ;
+    align-items:center ; */
 } 
 
 
@@ -68,7 +68,6 @@ header{
     padding: 10px 20px;
     border-radius: 5px;
     color: #ffffff;
-    font-weight: 400;
     text-decoration: none;
     font-family: 'HelveticaNeue';
     font-weight: 400;
@@ -106,3 +105,49 @@ header{
 .header-image img{
     height: 480px;
 }
+
+
+/*--------------------------------------------------------------
+        main section
+---------------------------------------------------------------*/
+.menu li clicked{
+    background-color: #DD0000;
+    color: #FFFFFF;
+}
+
+.menu{
+
+    justify-content: center;
+    align-items: center;
+    width: 312px;
+    height: 312px;
+    background: #161616;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.menu li{
+    list-style: none;
+    height: 64px;
+    width: 252px;
+    justify-content: center;
+    border: 5px solid #DD0000;
+    border-radius: 10px;
+    text-align: center;
+    margin: 5px;
+    padding-top: 20px ;
+    background-color: #FFFFFF;
+
+}
+
+.menu-button{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #DD0000;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+
