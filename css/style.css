@@ -1,0 +1,87 @@
+/*-----------------------------------------------------------------
+        font style 
+------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+/*-----------------------------------------------------------------
+        common style 
+-------------------------------------------------------------------*/
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+} 
+
+
+/*--------------------------------------------------------------
+        header section
+---------------------------------------------------------------*/
+
+header{
+
+    width: 1000px;
+    height: 500px;
+    border-radius: 30px;
+    background-color:#161616;
+    color: #ffffff;
+    margin-top: 30px;
+    
+    
+}
+
+.top-header{
+    display: flex;
+    justify-content: center;
+    
+}
+.header-info{
+    width: 460px;
+    height: 424px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: 46px;
+
+
+}
+
+.header-title{
+    font-weight: 700;
+    font-size: 50px;
+    padding-bottom: 0px;
+
+    margin-bottom: 0px;
+}
+
+.header-details{
+    font-size: 13px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 57px;
+    margin-top: 38px;
+}
+
+.live-button{
+    background-color: #DD0000;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: 'HelveticaNeue';
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.header-image{
+    padding-top: 20px;
+}
+
+.header-image img{
+    height: 480px;
+}
