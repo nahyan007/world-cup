@@ -78,6 +78,27 @@ header{
 
 }
 
+.live-button:hover{
+    animation: animate 2s linear infinite;
+    cursor: pointer;
+}
+
+@keyframes animate{
+    0%{
+        box-shadow: 0 0 0 0 rgba(221, 0, 0, 0.7);
+    }
+    40%{
+        box-shadow: 0 0 0 50px rgba(221, 0, 0, 0);
+    }
+    80%{
+        box-shadow: 0 0 0 50px rgba(221, 0, 0, 0);
+    }
+    100%{
+        box-shadow: 0 0 0 0 rgba(221, 0, 0, 0);
+    }
+}
+
+
 .header-image{
     padding-top: 20px;
 }
